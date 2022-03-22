@@ -4,3 +4,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+header {
+    margin-top: 20px;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.4em;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 14px;
+}
+
+.li-box {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: pink;
+    border-radius: 50%;
+}
